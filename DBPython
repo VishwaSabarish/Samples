@@ -1,0 +1,15 @@
+#for connect MYSQLDB
+import MySQLdb as sql
+#For Connecting Host
+db = sql.connect(host="127.0.0.1",user="root",passwd="",db="test")
+cursor = db.cursor()
+query = "select * from adata"
+cursor.execute(query)
+result = cursor.fetchall()
+for r in result:
+    #for print all
+    print str(r)
+    #for perticuler places
+    print str(r[1])
+
+db.close()
