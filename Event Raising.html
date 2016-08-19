@@ -1,0 +1,19 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+	<button id="btnclick1">Click1</button>
+	<button id="btnclick2">Click2</button>
+	<script>
+		$('#btnclick1').click(function () {
+			console.log('fired btnclick1')
+		});
+		
+		$('#btnclick2').click(function () {
+			$('#btnclick1').trigger('click');
+		});
+		
+	</script>
+</body>
+</html>
