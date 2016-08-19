@@ -1,0 +1,52 @@
+template.css
+===============
+.btn-primary {
+  color: #ffffff;
+  background-color: @Primarycolor;
+  border-color: #357ebd;
+}
+
+
+Controller
+=================
+
+[HttpPost]
+public JsonResult Theme(string theme1)
+{
+    string text = System.IO.File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + @"\Content\Site-template.css");
+    text = text.Replace("@Primarycolor", theme1);
+    System.IO.File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + @"\Content\Site.css", text);
+    return Json("/Content/Site.css", JsonRequestBehavior.AllowGet);
+}
+
+
+JS
+===============
+
+<script>
+    var themesheet = $('<link href="../Content/Site.css" rel="stylesheet" />');
+    $(function () {
+        themesheet.appendTo('head');
+    });
+
+    $("#btnchange").click(function () {
+        console.log("fired");
+        //var dataToPost = { 'theme1': "" +$("#txtcolor").val() + " };
+        //console.log(dataToPost);
+        $.ajax({
+            url: '../Home/Theme',
+            type: "POST",
+            data: "{ 'theme1': '" + $("#txtcolor").val() + "'}",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+                debugger;
+                if (data != "") {
+                    themesheet.attr('href', data);
+                }
+                else { alert("error"); }
+            }
+        });
+    });
+</script>

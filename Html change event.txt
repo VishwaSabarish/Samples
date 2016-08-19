@@ -1,0 +1,5 @@
+Html change event
+=========================
+$('.footable-paging .label-default').bind("DOMSubtreeModified",function(){
+  alert('changed');
+});
