@@ -1,0 +1,61 @@
+@echo off
+color 0a
+cls
+mode 900
+echo SCORPION KING
+echo ===================================================
+echo[ 
+echo                 ..-:/+oyhdmNNmmhyo/-                                                                
+echo                        `.-:/oyyhNMMMNy/`                                                            
+echo                              `:ossyNMMMNo`          `                                               
+echo                                 `:hssNMMMm:         `/                                              
+echo                                   `+mohMMMN+         y`        .                                    
+echo    `                                /d//ohMN.        s/        +`                                   
+echo   `:                         .           `yM-        sh        o:                                   
+echo   o`                         .y+.   `/h/-+Nh`        hd        y/                                   
+echo  :y                           .yNmddNMMMNNs`        `Nd       `m/                                   
+echo  d+                             .+yhddhsoyos`      `yh+       /M-                                   
+echo :M+-                               ```` `oso.      `ym`      .mN                                    
+echo sM++                                      hdy/    /so:      -dms                                    
+echo dMoy                                     `s/o-    -::      `hm.`                                    
+echo NMdo/        -.                         -/...   `:s.     `+:sy`                                     
+echo dMMoh:       `yy.              ./:`   `/o-     .+o:      .s+:`                                      
+echo oMMNoh+`      .NN:          ` +sN++- -s/``  `:///`     `:+-`                                        
+echo .mMMNsyh/.    `mMm`         hsmMMh/:`/o/`  /os-`     `:+s/                                          
+echo  -mMMMdshs` `-yMMN`         ++/hys`  .dNm+:/-.   `.-:++/.                                           
+echo   .hMMMMh`  .dMMMs           `/.`   `-:-+s/yh/` /+y+.``        `.`-. ``                             
+echo    `/hNMN/.`-dMms/`      `-.s+.y-::  -` -+osdmd/:/-`   `.-/+++.+y/+hysdhy+:.                        
+echo      `-ohdhhhy++sho::...-:+:..`dNd.` :ho/m+:--/yy: `:-/://-.`` `-` .-..--/oso/-                     
+echo          ````  .:./Ny++-` ``   .ys/o./yMMMho:` `+o/-o++.                    `.:/-`   ..             
+echo                   `://.`    -+o./y+m.d-hMMNhhy- :h/:`                           ``.++s+   .---.     
+echo                          `-/++:` +NM:: -NM-``-+`:m-/                         ./. `yo..-```-h-/y+`   
+echo  ....`            .- `.:+++- `  `./md`  -y+`   `hN-:-                       /oy/ ``--- :y+`- .-`    
+echo   `.:/oo+++++ooy/-ss-.+/-.     -+s/.sy-:-.--.`+yNhss` `                    .m:.. -+y+h++//y-`o.  :` 
+echo        `.:/+os::++..`         :os-.  :++oysohddhoyM/ .o                  .+.+-.`::/y..`  .//+y/..oo:
+echo                            `-++.`  `:s/.---.:osydNMmhh/ ..              :ss/``.:/y+`         h:.`.+y
+echo                      `.``-++o:.   `-oo`    `.```.hMNN: `yd`             h+.```-ys`           -os.  .
+echo    `            `.:-`+yo`::.     -+/.         `:+o:-/msodN:`            s+/..++y.            ++-`-: 
+echo    .-://///++oshdhyhy/--        -s+`             .::sd`  -.ho-`      `:o+sh. `o.            .y:`-/+ 
+echo        `.-:://///: ``           s/`              `/ydh`   :/-ss..::-.+ho` :`               /+:.-.+. 
+echo                                /:.                   -yo/`` -syo:m/:sy+-.. -o+-           `s-`:s`   
+echo                               .y/-                    ss../`` `. /` //.`.h:/y/`         `o../-/-    
+echo                               om-                      /sys    `:: `-   -/:-`           -o..+:      
+echo                               +do                        ..   .sd:-oh-                   :-+-       
+echo                               dM-                               .:/::-`               ``.ssd/       
+echo                               +M.                                                   -ohdmmdyo-      
+echo                               `m/                                                 `yNMNNN/--sNo     
+echo                                /y                                                 yMh/--:   :MM+    
+echo                                 o-                                               `Ns     -o:NMMd    
+echo                                  +`                                               y`    `/M/MMMd    
+echo                                   `                                               `    .+:m+MMMs    
+echo                                                                                      :+m:oodMMN.    
+echo                                                                                      mMy-hoMMN:     
+echo                                                                                     :Md-ssMMd.      
+echo                                                                                    .my/ohMm/        
+echo                                                                                   -d+/ymh/`         
+echo                                                                                 .oo-sh+.            
+echo                                                                              `:++///.               
+echo                                                                           .///...                   
+echo                                                                     `.--::-                         
+echo Made by Sabari...
+pause > nul
